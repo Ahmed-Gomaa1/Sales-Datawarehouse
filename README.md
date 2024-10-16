@@ -1,4 +1,4 @@
-# Data Ingestion for Sales Data Warehouse
+# Sales Data Warehouse
 
 ## Overview
 This project is designed to manage and load data into a Sales Data Warehouse efficiently. It includes SQL scripts to create necessary tables and a Python script to load data into these tables from a DataFrame.
@@ -6,10 +6,10 @@ This project is designed to manage and load data into a Sales Data Warehouse eff
 ## Features
 - SQL table creation for a comprehensive data warehouse
 - Python script for data ingestion with SQLAlchemy
-- Automated insertion and update of dimension keys
+- Building reports to visualize new version of data
 
 ## Prerequisites
-- Python 3.x
+- Python 3
 - Libraries: pandas, sqlalchemy
 - SQL Server or an equivalent database management system
 
