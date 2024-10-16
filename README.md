@@ -16,4 +16,4 @@ This project is designed to manage and load data into a Sales Data Warehouse eff
 ## Installation
 ### Clone the Repository
 ```bash
-git clone https://github.com/Ahmed-Gomaa1/Sales-Datawarehouse-and-Power-Bi-Report
+git clone https://github.com/Ahmed-Gomaa1/Sales-Datawarehouse-and-Power-Bi-Report.git
