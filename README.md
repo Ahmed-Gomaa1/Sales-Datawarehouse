@@ -1,19 +1,26 @@
 # Sales Data Warehouse
 
 ## Overview
+
 This project is designed to manage and load data into a Sales Data Warehouse efficiently. It includes SQL scripts to create necessary tables and a Python script to load data into these tables from a DataFrame.
 
 ## Features
-- SQL table creation for a comprehensive data warehouse
-- Python script for data ingestion with SQLAlchemy
-- Building reports to visualize new version of data
+
+- **SQL Table Creation**: Comprehensive SQL scripts to create all necessary tables for the data warehouse.
+- **Python Script for Data Ingestion**: A Python script using SQLAlchemy to load data into the tables from a DataFrame.
+- **Data Visualization**: Building reports to visualize the new version of the data.
 
 ## Prerequisites
-- Python 3
-- Libraries: pandas, sqlalchemy
-- SQL Server or an equivalent database management system
 
-## Installation
-### Clone the Repository
+Before you begin, ensure you have the following installed:
+
+- **Python 3**: The project uses Python for data ingestion.
+- **SQLAlchemy**: For database interactions.
+- **Pandas**: For data manipulation.
+- **SQL Server**: The project is designed to work with SQL Server, but it can be adapted to other relational databases.
+
+You can install the required Python packages using pip:
+
 ```bash
-git clone https://github.com/Ahmed-Gomaa1/Sales-Datawarehouse-and-Power-Bi-Report.git
+pip install pandas sqlalchemy pyodbc
+```
